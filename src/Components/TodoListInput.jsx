@@ -1,0 +1,23 @@
+import React, { useState } from 'react'
+
+const Todolistinput = (props) => {
+  const {handleAdd} = props;
+
+  const [inputValue,setInputValue] = useState("");
+  
+  return (
+    <div className='input-container'>
+        <input value={inputValue} onChange={(e) => {setInputValue(e.target.value)}} placeholder='Add a task' />
+        <button onClick={() => {
+          if(!inputValue) {return}
+            handleAdd(inputValue)
+            setInputValue('')
+        }}>
+            <i className="fa-solid fa-plus"></i>
+        </button>
+
+    </div>
+  )
+}
+
+export default Todolistinput
