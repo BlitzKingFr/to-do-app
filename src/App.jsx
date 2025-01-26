@@ -10,13 +10,12 @@ function App() {
 
   const [selectedTab,setSelectedTab] = useState("Open")
 
-  function handleAdd(newTodo){
+  function handleAddTodo(newTodo){
 
     const newTodoList = [...todos, {input:newTodo , complete:false}];
     setTodos(newTodoList)
   }
   function handleCompleteTodo(index) {
-    // update/edit/modify
     let newTodoList = [...todos]
     let completedTodo = todos[index]
     completedTodo['complete'] = true
@@ -36,7 +35,7 @@ function App() {
       <Header todos = {todos}/>
       <Tabs todos = {todos} selectedTab = {selectedTab} setSelectedTab = {setSelectedTab}/>
       <Todolist todos = {todos} selectedTab={selectedTab} handleDelete = {handleDelete} handleCompleteTodo ={handleCompleteTodo}/>
-      <Todolistinput handleAdd ={handleAdd}  />
+      <Todolistinput handleAdd ={handleAddTodo}  />
     </>
   )
 }

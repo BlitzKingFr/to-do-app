@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Todolistinput = (props) => {
-  const {handleAdd} = props;
+  const {handleAddTodo} = props;
 
   const [inputValue,setInputValue] = useState("");
   
@@ -10,7 +10,7 @@ const Todolistinput = (props) => {
         <input value={inputValue} onChange={(e) => {setInputValue(e.target.value)}} placeholder='Add a task' />
         <button onClick={() => {
           if(!inputValue) {return}
-            handleAdd(inputValue)
+            handleAddTodo(inputValue)
             setInputValue('')
         }}>
             <i className="fa-solid fa-plus"></i>
