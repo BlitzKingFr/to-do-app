@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build"  # or yarn build / pnpm build
+  publish = "dist"           # or "build", depending on your output folder
