@@ -1,6 +1,6 @@
-import React from 'react'
-import Todocard from './Todocard'
-const Todolist = (props) => {
+import TodoCard from './Todocard'
+
+const TodoList = (props) => {
     const { todos, selectedTab } = props
 
 
@@ -13,7 +13,7 @@ const Todolist = (props) => {
     <>
         {filterTodosList.map((todo,todoIndex) => {
             return(
-                <Todocard 
+                <TodoCard 
                 key={todoIndex}
                 {...props} 
                 todoIndex = {todoIndex}
@@ -24,4 +24,4 @@ const Todolist = (props) => {
   )
 }
 
-export default Todolist
+export default TodoList
