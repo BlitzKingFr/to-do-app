@@ -1,8 +1,8 @@
 import { useState } from "react"
 import Header from "./Components/Header"
 import Tabs from "./Components/Tabs"
-import Todolist from "./Components/Todolist"
-import Todolistinput from "./Components/Todolistinput"
+import TodoList from "./Components/TodoList"
+import TodoListInput from "./Components/TodoListInput"
 
 function App() {
 
@@ -34,8 +34,8 @@ function App() {
     <>
       <Header todos = {todos}/>
       <Tabs todos = {todos} selectedTab = {selectedTab} setSelectedTab = {setSelectedTab}/>
-      <Todolist todos = {todos} selectedTab={selectedTab} handleDelete = {handleDelete} handleCompleteTodo ={handleCompleteTodo}/>
-      <Todolistinput handleAdd ={handleAddTodo}  />
+      <TodoList todos = {todos} selectedTab={selectedTab} handleDelete = {handleDelete} handleCompleteTodo ={handleCompleteTodo}/>
+      <TodoListInput handleAddTodo={handleAddTodo}  />
     </>
   )
 }
