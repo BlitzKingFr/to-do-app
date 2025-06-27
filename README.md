@@ -1,72 +1,38 @@
-📝 To-Do List App
-A simple and fast To-Do List application built using React and Vite. It allows users to add, delete, and manage daily tasks with a clean and responsive interface.
+# 📝 To-Do List App
 
-🚀 Features
-✅ Add new tasks
+A simple and fast To-Do List application built with **React** and **Vite**. It helps you keep track of your daily tasks with a clean and minimal UI.
 
-🗑️ Delete tasks
+---
 
-✏️ Mark tasks as complete/incomplete
+## 🚀 Features
 
-📱 Responsive design
+- ✅ Add and delete tasks
+- 📌 Mark tasks as completed
+- 💾 Data persists using localStorage
+- 📱 Fully responsive design
+- ⚡ Lightning fast development with Vite
 
-⚡ Fast performance using Vite
+---
 
-🔧 Tech Stack
-React – Frontend Library
+## 🔧 Tech Stack
 
-Vite – Lightning fast dev server and build tool
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [CSS Modules / Tailwind / Plain CSS] *(update based on your styling method)*
 
-[CSS Modules / Tailwind / Plain CSS] – (Replace with whatever you used for styling)
+---
 
-📸 Screenshots
-(Optional – add screenshots of your app here)
+## 📦 Installation
 
-📦 Installation
-bash
-Copy
-Edit
-# Clone the repo
+```bash
+# Clone the repository
 git clone https://github.com/yourusername/todolist-app.git
 
-# Navigate to project directory
+# Navigate to the project directory
 cd todolist-app
 
 # Install dependencies
 npm install
 
-# Run the app locally
+# Start the development server
 npm run dev
-The app should now be running at http://localhost:5173/.
-
-🗂️ Project Structure
-pgsql
-Copy
-Edit
-todolist-app/
-├── public/
-├── src/
-│   ├── components/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── package.json
-└── vite.config.js
-🛠️ Customization
-You can enhance this project by:
-
-Adding localStorage or backend integration
-
-Adding due dates or reminders
-
-Using context API or Redux for state management
-
-🙌 Acknowledgements
-React Documentation
-
-Vite Documentation
-
-[FontAwesome / Icons library used] (if any)
-
-📄 License
-This project is open source and available under the MIT License.
