@@ -1,8 +1,72 @@
-# React + Vite
+📝 To-Do List App
+A simple and fast To-Do List application built using React and Vite. It allows users to add, delete, and manage daily tasks with a clean and responsive interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+✅ Add new tasks
 
-Currently, two official plugins are available:
+🗑️ Delete tasks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✏️ Mark tasks as complete/incomplete
+
+📱 Responsive design
+
+⚡ Fast performance using Vite
+
+🔧 Tech Stack
+React – Frontend Library
+
+Vite – Lightning fast dev server and build tool
+
+[CSS Modules / Tailwind / Plain CSS] – (Replace with whatever you used for styling)
+
+📸 Screenshots
+(Optional – add screenshots of your app here)
+
+📦 Installation
+bash
+Copy
+Edit
+# Clone the repo
+git clone https://github.com/yourusername/todolist-app.git
+
+# Navigate to project directory
+cd todolist-app
+
+# Install dependencies
+npm install
+
+# Run the app locally
+npm run dev
+The app should now be running at http://localhost:5173/.
+
+🗂️ Project Structure
+pgsql
+Copy
+Edit
+todolist-app/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+└── vite.config.js
+🛠️ Customization
+You can enhance this project by:
+
+Adding localStorage or backend integration
+
+Adding due dates or reminders
+
+Using context API or Redux for state management
+
+🙌 Acknowledgements
+React Documentation
+
+Vite Documentation
+
+[FontAwesome / Icons library used] (if any)
+
+📄 License
+This project is open source and available under the MIT License.
