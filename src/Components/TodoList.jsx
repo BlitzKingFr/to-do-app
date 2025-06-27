@@ -1,4 +1,4 @@
-import TodoCard from './Todocard'
+import Todocard from './Todocard';
 
 const TodoList = (props) => {
     const { todos, selectedTab } = props

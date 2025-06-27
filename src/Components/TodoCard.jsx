@@ -1,4 +1,4 @@
-const TodoCard = (props) => {
+const Todocard = (props) => {
     const {todo, handleDelete,todoIndex,handleCompleteTodo} = props;
     
   return (
@@ -20,4 +20,4 @@ const TodoCard = (props) => {
   )
 }
 
-export default TodoCard
+export default Todocard
