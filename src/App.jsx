@@ -5,14 +5,14 @@ import TodoList from "./Components/TodoList"
 import TodoListInput from "./Components/TodoListInput"
 
 function App() {
-  // Load todos from localStorage or use default
+
   const [todos, setTodos] = useState(() => {
     const saved = localStorage.getItem("todos");
     return saved ? JSON.parse(saved) : [{ input: 'Hello! Add your first todo!', complete: true }];
   });
   const [selectedTab, setSelectedTab] = useState("Open");
 
-  // Save todos to localStorage whenever they change
+
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos]);
