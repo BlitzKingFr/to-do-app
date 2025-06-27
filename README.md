@@ -36,3 +36,20 @@ npm install
 
 # Start the development server
 npm run dev
+```
+Open your browser and go to http://localhost:5173/
+
+---
+## 📁Project Structure
+```
+todolist-app/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+|   └── fanta.css
+├── package.json
+├── vite.config.js
+
